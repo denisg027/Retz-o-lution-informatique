@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.footerContainer {
+    position: absolute;
+    bottom: 0;
+    height: 20vh;
+    width: 100vw;
+    color: #F7F3EC;
+    background-color: #16163f;
+
+}
+
+.footer-a {
+    color: #F7F3EC;
+    text-decoration: none;
+}
+
+.address-list, .policy-info, .social-media{
+    display: block;
+    margin-top: 2%;
+}
+
+.address-list li, .policy-info li {
+    width: 100%;
+    font-size: 1.2rem;
+    
+}
+
+.address-list li:first-child {
+    font-style: italic;
+
+}
+
+li.policy:first-child {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.policy-info {
+    text-align: center;
+}
+
+.social {
+    height: 45px;
+    width: 45px;
+    border-radius: 25%;
+   
+}
+
+.social-media {
+    display: flex;
+    gap: 5%;
+    
+}
